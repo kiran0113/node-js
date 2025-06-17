@@ -1,0 +1,504 @@
+@import 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,100;1,200&family=Inter:wght@500;700&family=Open+Sans:wght@600&display=swap';
+
+body {
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 29px !important;
+  color: #000000 !important;
+}
+
+a {
+  text-decoration: none !important;
+  background-color: transparent;
+}
+
+p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.lh-40 {
+  line-height: 40px !important;
+}
+
+.text-white {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+}
+
+.form-group span {
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.Sigin-page {
+  background: linear-gradient(
+    180deg,
+    var(--purple-dark) 0%,
+    var(--purple-dark) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Sigin-page::before {
+  content: '';
+  width: 100%;
+  min-height: 100vh;
+  transition: all 0.3s;
+  background-image: url(../../../assets/images/Login-left-img.svg),
+    url(../../../assets//images/instarails-elements.svg),
+    url(../../../assets/images/login-bottom-img.svg) !important;
+  background-position: top left, top right, bottom left;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.Login-form,
+.Register-form,
+.SetPassword-form {
+  background: linear-gradient(0deg, var(--purple-dark) 0%, #8693f156 100%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 600px;
+  color: #f5f5f5;
+  opacity: 127%;
+  padding-bottom: 10px;
+}
+
+.signin-form-display {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.IRLOGOText {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.IR-text {
+  font-family: 'Inter' !important;
+}
+
+.payment-network-text {
+  font-size: 24px !important;
+}
+
+.form-group.login-form-input input {
+  background-color: transparent !important;
+  box-shadow: 2px 4px 10px rgb(0 0 0 / 12%) !important;
+  border-radius: 4px !important;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.6px;
+}
+
+.form-group.login-form-input input:hover {
+  background-color: white !important;
+  color: #000000;
+}
+
+.form-group.login-form-input input:focus {
+  background-color: white !important;
+  color: #000000;
+}
+
+.username-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.username-form form {
+  width: 80%;
+}
+
+.form-group.form-check.login-checkbox {
+  margin-left: 20% !important;
+}
+
+.text-white-link {
+  color: #f5f5f5;
+}
+
+.form-check-input {
+  background-color: transparent;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+}
+
+/* .login-form-input.form-check-input::placeholder {
+  color: gray !important;
+} */
+.eyeicon {
+  position: absolute;
+  right: 15px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.form-group .form-check-label {
+  line-height: 22px !important;
+}
+
+.bi-eye-slash::before {
+  top: 49%;
+  position: absolute;
+  right: 32%;
+  color: #000000;
+}
+
+.password-input-field {
+  position: relative;
+}
+
+.login-error-msg {
+  color: red !important;
+  font-weight: 400 !important;
+  position: absolute;
+  margin-top: 0px;
+  font-size: 12px !important;
+  line-height: 22px !important;
+}
+
+.Register-form p {
+  color: #f5f5f5;
+  font-size: 17px !important;
+  line-height: 23px !important;
+}
+
+.register-thanks {
+  font-size: 20px !important;
+}
+
+.register-login-text a {
+  display: block;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.Register-form a:hover {
+  color: rgb(167, 176, 253);
+}
+
+/* .btn-register.p-button.p-button-loading-label-only .p-button-loading-icon {
+  position: absolute !important;
+  left: 30% !important;
+}
+.btn-login.p-button.p-button-loading-label-only .p-button-loading-icon {
+  position: absolute !important;
+  left: 35% !important;
+} */
+form .btn-register {
+  width: 180px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  color: #ffff;
+  border: none;
+  padding: 6px 0px;
+  background: transparent;
+  border: 1px solid rgb(167, 176, 253) !important;
+}
+
+form .btn-login {
+  width: 180px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  color: #ffff;
+  border: none;
+  padding: 6px 0px;
+  background: transparent;
+  border: 1px solid rgb(167, 176, 253) !important;
+}
+
+.btn-login .p-button-icon {
+  position: absolute;
+  left: 40px;
+  top: 11px;
+}
+
+.btn.btn-register .p-button-icon {
+  position: absolute;
+  left: 35px;
+  top: 11px;
+}
+
+.username-form form .btn-register:hover {
+  box-shadow: none;
+  color: var(--purple-dark);
+  background: rgb(167, 176, 253);
+}
+
+.username-form form .btn-login:hover {
+  box-shadow: none;
+  color: var(--purple-dark);
+  background: rgb(167, 176, 253);
+}
+
+.p-button:focus {
+  box-shadow: none;
+}
+
+.p-button:focus {
+  outline: none;
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+.btn-register.p-butto :hover {
+  font-family: 'Inter' !important;
+  background: #f7f7f7 !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  color: var(--purple-dark) !important;
+  width: 100% !important;
+  padding: 6px 0px !important;
+}
+
+.sign-in-text {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.text-white-pass {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37px;
+}
+
+.p-component {
+  font-family: 'Inter' !important;
+}
+
+.awesome-text {
+  font-family: 'Inter' !important;
+  font-weight: 600 !important;
+  font-size: 25px !important;
+  color: var(--purple-dark) !important;
+}
+
+.p-dialog hr {
+  width: 80%;
+  border-top: 3px solid var(--purple-dark) !important;
+  margin-left: 11%;
+}
+
+.p-dialog-draggable .p-dialog-header {
+  display: none !important;
+}
+
+.new-here {
+  cursor: pointer;
+}
+
+.login-page {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(167, 176, 253);
+}
+
+.login-page .logo-white {
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.login-form-display h2 {
+  font-size: 25px;
+  line-height: 31px;
+  margin-bottom: 8px;
+}
+
+.login-form-display h3 {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+
+.form-group.login-form-input {
+  margin-bottom: 30px;
+}
+
+.login-form-input p {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  margin-bottom: 9px;
+  color: #ffff;
+  letter-spacing: 0.5px;
+}
+
+.login-form-input img {
+  width: 13px;
+  margin-right: 7px;
+}
+
+.form-group.password-input {
+  margin-bottom: 40px;
+}
+
+.forgot-password a {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: normal;
+}
+
+.forgot-password {
+  margin-bottom: 15px;
+}
+
+.forgot-password a:hover {
+  color: rgb(167, 176, 253);
+}
+
+.new-here p {
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 2px;
+  cursor: auto !important;
+}
+
+.username-form.register-form form {
+  width: 100%;
+}
+
+.p-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.signin-form-display h4 {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.signin-form-display .second-title {
+  margin-bottom: 20px;
+}
+
+form .save-btn {
+  margin-bottom: 40px;
+}
+
+.form-group.login-form-input.confirm-pass {
+  margin-bottom: 40px;
+}
+
+.link-expired-message .link-expire {
+  font-size: 22px;
+  padding-bottom: 20px;
+  color: #fff;
+  line-height: 28px;
+}
+
+.btn-login.save-btn .p-button-icon {
+  position: absolute;
+  left: 16px;
+  top: 11px;
+}
+
+.btn.btn-register-ok {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 30px;
+  font-family: 'Inter' !important;
+  position: relative;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  margin-top: 10px;
+  color: var(--purple-dark);
+  border: none;
+  padding: 6px 0px;
+  background: transparent;
+  border: 1px solid var(--purple-dark) !important;
+}
+
+.btn.btn-register-ok:hover {
+  color: #fff !important;
+  background: var(--purple-dark) !important;
+  border: 1px solid var(--purple-dark) !important;
+}
+
+.form-group.login-form-input.forget-pass-input {
+  margin-bottom: 50px;
+}
+
+.forget-pass-popup.p-button:enabled:hover {
+  color: #6366f1;
+  background-color: transparent;
+  border: 1px solid #6366f1;
+}
+
+form .reset-btn {
+  width: 200px;
+}
+
+.btn-submit .p-button-icon {
+  position: absolute;
+  left: 42px;
+  top: 11px;
+}
+
+/* ========================Mobile Responsive =============== */
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .Login-form,
+  .Register-form,
+  .SetPassword-form,
+  .login-form-display {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100% !important;
+  }
+  /* STEPPER */
+  .tab-content {
+    overflow: scroll !important;
+  }
+  .tab-content > .active {
+    display: flex;
+  }
+  .payment-steps .steps {
+    display: -webkit-inline-box !important;
+  }
+}

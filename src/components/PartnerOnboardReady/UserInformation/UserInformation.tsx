@@ -1,0 +1,33 @@
+import React from "react";
+import profileimg from "../assets/images/profile-img.png";
+import notification from "../assets/images/notification-img.png";
+import Sidebar from "../../../Layout/Sidebar";
+import Header from "../../../Layout/Header";
+
+const UserInformation: React.FC = () => {
+    return (
+        <>
+            {" "}
+            <div>
+                <div className="wrapper dashboard">
+                    {/* <Toast ref={toast}></Toast> */}
+                    <div className="togle-button">
+                        <Sidebar />
+                        <div id="content">
+                        <Header pageName="User Information"/>
+                            <div className="heading-section">
+                                <span className="text-header-purple">
+                                    User Information
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>{" "}
+        </>
+    );
+};
+
+export default UserInformation;
+

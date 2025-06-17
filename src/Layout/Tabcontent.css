@@ -1,0 +1,95 @@
+.tab-content {
+  z-index: 99;
+  padding: 9px 0px 9px 10px;
+  background-color: #ffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.payment-steps {
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0 auto;
+}
+
+.payment-steps .steps {
+  display: flex;
+  column-count: 5;
+  align-items: center;
+  border-radius: 6px;
+  justify-content: center;
+}
+
+.payment-steps .steps .step {
+  max-width: 300px;
+  /* flex: 0 100%; */
+  display: flex;
+  align-items: center;
+}
+
+.payment-count.active {
+  background-color: var(--purple-dark) !important;
+  color: #fff !important;
+}
+
+.payment-steps .steps .step:last-child:after {
+  content: '';
+  display: none;
+}
+
+.payment-steps .steps .step .payment-count {
+  font-weight: 600;
+  font-size: 13px;
+  width: 26px;
+  height: 26px;
+  border-radius: 18px;
+  background: #fff;
+  border: 2px solidvar(--purple-dark);
+  color: var(--purple-dark);
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  z-index: 2 !important;
+  cursor: pointer !important;
+}
+
+.payment-count.payment-detail.active {
+  border: 2px solid var(--purple-dark) !important;
+  color: var(--purple-dark) !important;
+}
+
+.step-title.payment-detail.active {
+  color: var(--purple-dark);
+}
+
+.true-img {
+  height: 12px;
+}
+
+.payment-steps .tabs {
+  width: 100%;
+  height: 100%;
+}
+
+.payment-steps .tabs .tab {
+  display: none;
+}
+
+.payment-steps .tabs .tab.active {
+  display: block !important;
+}
+
+.payment-line {
+  border-bottom: 1px solid var(--purple-dark) !important;
+  flex: auto;
+  min-width: 1px;
+  min-height: 1px;
+  margin: auto 5px;
+}
+
+/* .text-blue {
+  color: var(--purple-dark);
+  font-family: 'Space Grotesk'; 
+  font-weight: 600;
+  font-size: 12.5px;
+ 
+}  */

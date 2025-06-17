@@ -1,0 +1,1281 @@
+@media (max-width: 2000px) and (min-width: 1700px) {
+  .developer-screen-section {
+    padding-left: 63px;
+    padding-right: 76px;
+  }
+
+  .input-with-icon-cashpickup {
+    background-position: left 32% center;
+  }
+
+  @media screen and (max-width: 1280px) {
+    .fees-screen {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+
+  .input-with-icon-bank {
+    background-position: left 30% center;
+  }
+
+  .input-with-icon-realtime {
+    background-position: left 40% center;
+  }
+
+  .input-with-icon-mobilewallet {
+    background-position: left 31% center;
+  }
+
+  .personal-details .button-section {
+    padding-top: 55px;
+  }
+
+  .acc-screen .form-group .errormsg-limit {
+    bottom: -18px;
+  }
+
+  .error-msg-2 {
+    max-width: 290px;
+  }
+  .error-msg-send-2 {
+    max-width: 260px;
+  }
+  .acc-screen .form-group .errormsg-limit {
+    bottom: -18px;
+  }
+  .error-msg.report-error {
+    position: absolute;
+    left: 15px !important;
+    bottom: -7px !important;
+  }
+
+  .Fees-details-card-4 {
+    width: 70%;
+  }
+  .Fees-details-card-1 {
+    width: 51%;
+  }
+  .Fees-details-card-3 {
+    width: 65%;
+  }
+  .Fees-details-card-2 {
+    width: 64%;
+  }
+  .Fees-details-card-1 .error-message-col {
+    width: 30.5%;
+  }
+  .Fees-details-card-1 .error-message-col-varible {
+    width: 33.5%;
+  }
+  .register-popup.Payment-screen {
+    width: 25%;
+  }
+}
+
+@media (min-width: 1600px) {
+  /* 
+    Tab section and main heading css start */
+  .heading-section {
+    padding: 15px 0px;
+  }
+
+  .text-header-purple {
+    font-size: 22px;
+    line-height: 41px;
+  }
+
+  .tab-content {
+    top: 135px;
+  }
+
+  .datatable-doc-demo .p-datatable .p-datatable-tbody > tr > td {
+    font-size: 14px;
+  }
+
+  .payment-steps .text-blue {
+    font-size: 15px;
+  }
+  .Admintab-main .main-tab .p-tabview-panels {
+    background: transparent;
+    padding: 0px 20px;
+  }
+  .payment-line {
+    width: 60px;
+  }
+
+  .fees-screen table th {
+    font-size: 14px;
+  }
+
+  .transaction-screen
+    .datatable-doc-demo
+    .p-datatable
+    .p-datatable-thead
+    > tr
+    > th {
+    padding-left: 20px;
+  }
+
+  .transaction-screen
+    .datatable-doc-demo
+    .p-datatable
+    .p-datatable-tbody
+    > tr
+    > td {
+    padding-left: 20px;
+  }
+
+  /* 
+    Tab section and main heading css end */
+
+  .acc-screen {
+    /* padding: 0px 0px 200px 0px; */
+  }
+
+  .acc-screen .form-group input {
+    height: 32px;
+  }
+  .acc-screen.personal-details {
+    padding-right: 45px;
+    padding-left: 75px;
+  }
+  .acc-screen.payment-screen {
+    padding-top: 0px;
+  }
+
+  .checkquote-cards {
+    display: flex;
+    padding: 30px 20px;
+    width: 100%;
+    margin-right: -7px;
+  }
+
+  .chechquotes-screen .card {
+    flex: 0 0 30.5%;
+    margin: 10px 12px;
+    max-width: 400px;
+  }
+
+  .text-color-checkquoet h4 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .text-color-checkquoet p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .text-color-checkquoet .recipient-amt {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .tab-pane {
+    width: 100%;
+  }
+
+  .Admintab-main .p-tabview-nav-content {
+    padding: 0px 40px;
+  }
+  .Admintab-main .dashboard-main-tab {
+    padding: 0px 40px;
+  }
+  .right-tab-section .contain-scroll > div {
+    min-height: auto !important;
+    max-height: calc(100vh - 100px) !important;
+    overflow-x: hidden !important;
+  }
+  .right-tab-section .contain-scroll {
+    height: auto;
+    min-height: 0px !important;
+    max-height: calc(100vh - 100px) !important;
+    overflow-x: hidden !important;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 1200px) {
+  /* fees screen css */
+
+  .Fees-details-card-2 .error-message-col {
+    width: 30.5%;
+  }
+  /* .Fees-details-card-1 .error-message-col{
+     width: 33.5% !important;
+  
+    } */
+  .Fees-details-card-3 .error-message-col {
+    width: 29.5%;
+  }
+  .Fees-details-card-4 .error-message-col {
+    width: 26.5%;
+  }
+  .fees-card.country {
+    flex: 6%;
+    max-width: 120px;
+  }
+
+  .fees-card.currency {
+    flex: 6%;
+    max-width: 120px;
+  }
+  .Fees-details-card .fees-card p {
+    font-size: 12px;
+  }
+
+  .Fees-details-card .fees-card {
+    padding: 8px 10px 10px 10px;
+  }
+  .Fees-details-card .fees-card h3 {
+    font-size: 13px;
+  }
+
+  .switch-field label {
+    font-size: 12px;
+    padding: 7px 10px;
+    line-height: 2;
+  }
+
+  .switch-field input:checked + label {
+    font-size: 12px;
+    padding: 7px 12px;
+    line-height: 2;
+  }
+
+  .fees-card input {
+    font-size: 12px;
+  }
+  .toggle-country {
+    min-width: 100px;
+  }
+  .row.card-error-msg {
+    width: 99%;
+  }
+
+  .row.card-error-msg .blank-div {
+    flex: 6%;
+    max-width: 85px;
+  }
+  .row.card-error-msg .blank-div.toggle-country {
+    flex: 6%;
+    min-width: 160px;
+  }
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  /* fees screen css */
+  .Fees-details-card {
+    width: 98%;
+  }
+
+  .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    padding: 12px;
+  }
+
+  .fees-card.country {
+    flex: 6%;
+    max-width: 120px;
+    padding: 6px;
+  }
+
+  .fees-card.currency {
+    flex: 6%;
+    max-width: 120px;
+    padding: 6px;
+  }
+  .Fees-details-card .fees-card p {
+    font-size: 12px;
+  }
+
+  .Fees-details-card .fees-card {
+    padding: 8px 10px 10px 10px;
+  }
+  .Fees-details-card .fees-card h3 {
+    font-size: 13px;
+  }
+
+  .switch-field label {
+    font-size: 12px;
+    padding: 7px 10px;
+    line-height: 2;
+  }
+
+  .switch-field input:checked + label {
+    font-size: 12px;
+    padding: 7px 12px;
+    line-height: 2;
+  }
+
+  .fees-card input {
+    font-size: 12px;
+  }
+  .toggle-country {
+    min-width: 100px;
+  }
+  .row.card-error-msg {
+    width: 99%;
+  }
+
+  .row.card-error-msg .blank-div {
+    flex: 6%;
+    max-width: 120px;
+  }
+  .row.card-error-msg .blank-div.toggle-country {
+    flex: 6%;
+    min-width: 130px;
+  }
+  /* .right-tab-section .contain-scroll {
+    height: auto;
+    min-height: 0px !important;
+    max-height: calc(100vh - 100px) !important;
+    overflow-x: hidden !important;
+} */
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1039px) {
+  /* fees screen css */
+  .Fees-details-card {
+    width: 98%;
+  }
+
+  .fees-card.country {
+    max-width: 100px;
+    padding: 6px;
+  }
+
+  .fees-card.currency {
+    max-width: 100px;
+    padding: 6px;
+  }
+
+  .Fees-details-card .fees-card h3 {
+    font-size: 13px;
+  }
+
+  .Fees-details-card .fees-card p {
+    font-size: 12px;
+  }
+  .row.card-error-msg .error-msg-1 {
+    padding: 0px;
+  }
+
+  .toggle-country {
+    min-width: 100px;
+  }
+  .row.card-error-msg {
+    width: 99%;
+  }
+
+  .row.card-error-msg .blank-div {
+    flex: 6%;
+    max-width: 75px;
+  }
+  .row.card-error-msg .blank-div.toggle-country {
+    flex: 6%;
+    min-width: 80px;
+  }
+  .switch-field label {
+    font-size: 12px;
+    padding: 7px 8px;
+    line-height: 2;
+  }
+  .switch-field input:checked + label {
+    font-size: 12px;
+    padding: 7px 10px;
+    line-height: 2;
+  }
+
+  /* partner profile tab changes */
+
+  .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    padding: 10px;
+  }
+  .partner-logo-section {
+    /* position: absolute; */
+    right: 1%;
+    top: -5px;
+  }
+  .partner-logo-section .partner-logo {
+    width: 90%;
+    height: 34px;
+  }
+  #sidebar .sidebar-header {
+    padding: 12px 12px;
+  }
+  .Fees-details-card-4 .error-message-col {
+    width: 29.5%;
+  }
+  .error-message-col-receivertp {
+    width: 35.5%;
+  }
+}
+
+@media only screen and (max-width: 1039px) and (min-width: 900px) {
+  /* fees screen css */
+  .Fees-details-card {
+    width: 99%;
+  }
+
+  .fees-card.country {
+    flex: 6%;
+    max-width: 100px;
+    padding: 6px;
+  }
+
+  .fees-card.currency {
+    flex: 6%;
+    max-width: 100px;
+    padding: 6px;
+  }
+  .Fees-details-card .fees-card p {
+    font-size: 12px;
+  }
+
+  .Fees-details-card .fees-card {
+    padding: 8px 8px 10px 8px;
+  }
+  .Fees-details-card .fees-card h3 {
+    font-size: 12px;
+  }
+
+  .switch-field label {
+    font-size: 12px;
+    padding: 7px 7px;
+    line-height: 2;
+  }
+
+  .switch-field input:checked + label {
+    font-size: 12px;
+    padding: 7px 10px;
+    line-height: 2;
+  }
+
+  .fees-card input {
+    font-size: 12px;
+  }
+  .toggle-country {
+    min-width: 100px;
+  }
+  .row.card-error-msg {
+    width: 99%;
+  }
+
+  .row.card-error-msg .blank-div {
+    flex: 6%;
+    max-width: 105px;
+  }
+  .row.card-error-msg .blank-div.toggle-country {
+    flex: 6%;
+    min-width: 100px;
+  }
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 900px) {
+  /* navbar css */
+  .navbar h5 {
+    font-size: 17px;
+  }
+
+  .heading-section {
+    padding: 15px 0x;
+  }
+
+  .form-group span {
+    font-size: 12px;
+    line-height: 23px;
+    height: 34px !important;
+  }
+
+  .acc-screen .form-group input {
+    height: 26px;
+    font-size: 12px !important;
+  }
+
+  /* navbar css end */
+
+  /* side bar css */
+  #sidebar {
+    min-width: 170px !important;
+    max-width: 200px !important;
+  }
+
+  #sidebar ul li a {
+    text-align: left;
+    font-size: 12px !important;
+    font-size: 15px !important;
+    /* margin-bottom: 0px !important; */
+  }
+
+  .sidebar-header .logo-white {
+    width: 90%;
+    height: 25px;
+  }
+
+  #sidebar ul.components {
+    padding: 0px;
+  }
+
+  .btn.btn-cancel,
+  .btn.btn-back {
+    padding: 6px 9px;
+    font-size: 11px;
+  }
+
+  .text-blue-address {
+    font-size: 14px;
+  }
+
+  .register-address .form-check-label {
+    font-size: 13px;
+  }
+
+  .input-label {
+    line-height: 29px;
+    font-size: 13px;
+  }
+
+  .info-section .text-area {
+    font-size: 12px;
+  }
+
+  .p-multiselect .p-multiselect-label.p-placeholder {
+    height: 38px !important;
+    line-height: 40px !important;
+    font-size: 10px !important;
+
+    color: #000000;
+  }
+
+  .user-dialog .form-control::placeholder {
+    font-size: 10px;
+    color: gray;
+  }
+
+  .account-details .form-control::placeholder {
+    font-size: 10px !important;
+    line-height: 17px;
+  }
+
+  .form-control::placeholder {
+    font-size: 10px !important;
+  }
+
+  .p-autocomplete-dd .p-autocomplete-input::placeholder {
+    font-size: 10px !important;
+  }
+
+  .button-section {
+    padding-top: 20px;
+  }
+
+  .form-group .p-calendar .p-button {
+    height: 34px;
+  }
+
+  .payment-button-section {
+    padding-top: 45px;
+  }
+
+  .payment-screen h2 {
+    font-size: 14px;
+    line-height: 13px;
+    padding: 5px;
+  }
+
+  .btn.btn-payment-selected {
+    font-size: 13px;
+    padding: 6px 35px;
+  }
+
+  .btn.btn-payment {
+    font-size: 13px;
+  }
+
+  .payment-screen .form-check-label {
+    font-size: 14px;
+    margin-top: 7px;
+  }
+
+  .recevie-currency h3 {
+    font-size: 18px;
+  }
+
+  .currency-details table th {
+    font-size: 13px;
+  }
+
+  .p-tabview-title {
+    font-size: 12px;
+  }
+
+  .paymentsetting-readscreen .read-text {
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  .paymentsetting-readscreen .read-only {
+    width: 185px;
+  }
+
+  .paymentsetting-readscreen .read-only span {
+    font-size: 13px;
+  }
+
+  .acccount-seeting-screen h2 {
+    font-size: 18px;
+  }
+
+  .user-heading h2 {
+    font-size: 15px;
+  }
+
+  .datatable-doc-demo .p-datatable .p-datatable-tbody > tr > td {
+    font-size: 13px;
+  }
+
+  .datatable-doc-demo .p-datatable .p-datatable-thead > tr > th {
+    font-size: 12px;
+  }
+
+  .yes-check {
+    margin-right: 0px;
+  }
+
+  .createpayment-screen .form-check-label {
+    width: 65px;
+    font-size: 12px !important;
+  }
+
+  .note-text {
+    font-size: 7px !important;
+  }
+
+  .btn.btn-continue {
+    font-size: 12px;
+  }
+
+  .text-header-purple {
+    font-size: 16px;
+  }
+
+  .developer-resorce-Screen h2 {
+    font-size: 20px;
+  }
+
+  .developer-resorce-Screen span {
+    font-size: 14px;
+  }
+
+  .developer-resorce-Screen h1 {
+    font-size: 14px;
+  }
+
+  .copyicon-size {
+    top: 30px !important;
+    height: 14px;
+  }
+
+  .payment-screen .yes-check {
+    margin-right: 45px;
+  }
+
+  .acccount-seeting-screen table td .form-check-label {
+    font-size: 12px;
+  }
+
+  .acccount-seeting-screen table th {
+    font-size: 14px;
+  }
+
+  .namefield-border {
+    padding: 5px 7px;
+  }
+
+  /* login css */
+
+  .Login-form,
+  .Register-form,
+  .SetPassword-form {
+    width: 480px;
+    padding-top: 30px;
+  }
+
+  .login-page .logo-white {
+    width: 118px;
+  }
+
+  .login-form-display h3 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .login-form-display h2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .login-form-input p {
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  .form-group.login-form-input input {
+    padding: 6px;
+    font-size: 11px;
+  }
+
+  .form-group.login-form-input input:active {
+    padding: 6px;
+    font-size: 13px;
+    box-shadow: 2px 4px 10px rgb(0 0 0 / 12%) !important;
+  }
+
+  .form-group.login-form-input input:-webkit-autofill,
+  .form-group.login-form-input input:-webkit-autofill:hover,
+  .form-group.login-form-input input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+    box-shadow: 2px 4px 10px rgb(0 0 0 / 12%) !important;
+    transition: none;
+    border: 1px solid #ced4da;
+    font-size: 11px;
+  }
+
+  form .btn-login {
+    width: 170px;
+    margin-bottom: 25px;
+    font-size: 14px;
+  }
+
+  .forgot-password a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+
+  .form-group.login-form-input {
+    margin-bottom: 25px;
+  }
+
+  .new-here p {
+    font-size: 16px;
+  }
+
+  .form-group.login-form-input.forget-pass-input {
+    margin-bottom: 43px;
+  }
+
+  .Register-form p {
+    font-size: 13px !important;
+    line-height: 13px !important;
+  }
+
+  .register-login-text a {
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 7px;
+  }
+
+  form .btn-register {
+    font-size: 14px;
+  }
+  .Fees-details-card-3 .error-message-col {
+    width: 30.5%;
+  }
+  .Fees-details-card-1 .error-message-col {
+    width: 24.5%;
+  }
+}
+
+/* Tabconetnt.css */
+@media only screen and (max-width: 1200px) and (min-width: 997px) {
+  .tab-content {
+    top: 0px;
+  }
+
+  .payment-steps .steps .step .payment-count {
+    font-weight: 600;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .payment-tabcontent-main .text-blue {
+    font-size: 11px;
+  }
+
+  .payment-tabcontent-main .payment-steps .steps .step .payment-count {
+    font-size: 11px;
+  }
+  .edit-content .edit-partner,
+  .edit-payment .edit-partner {
+    font-size: 12px;
+    padding: 3px 0px;
+  }
+}
+
+/* common.css */
+
+@media (max-width: 1200px) {
+  .payment-line {
+    width: 20px;
+  }
+
+  .myfileupload-buttonbar .document-upload {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .fees-screen table th {
+    font-size: 12px;
+  }
+
+  .checkquote-cards {
+    display: flex;
+    padding: 30px 20px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .chechquotes-screen .card {
+    flex: 0 0 40%;
+    margin: 10px 10px;
+    max-width: 450px;
+  }
+}
+
+@media only screen and (min-width: 1040px) and (max-width: 1350px) {
+  .payment-steps .text-blue {
+    font-size: 13px;
+  }
+  .input-with-icon-realtime {
+    background-position: left 28% center;
+  }
+  .input-with-icon-mobilewallet {
+    background-position: left 12% center;
+  }
+  .input-with-icon-bank {
+    background-position: left 10% center;
+  }
+  .input-with-icon-cashpickup {
+    background-position: left 11% center;
+  }
+  .myfileupload-buttonbar .p-button.document-upload {
+    padding: 0px 40px;
+  }
+  .status-check.activeinput {
+    margin-left: 10px;
+  }
+  .Fees-details-card-3 .error-message-col {
+    width: 26%;
+  }
+  .info-section .textarea-wrap .text-area::placeholder {
+    font-size: 10px !important;
+    line-height: 20px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1040px) {
+  #sidebar {
+    min-width: 110px !important;
+    max-width: 160px !important;
+  }
+
+  #sidebar .sidebar-header {
+    padding: 15px 10px 20px 10px !important;
+  }
+  .sidebar-header .logo-white {
+    width: 90% !important;
+    height: 30px !important;
+  }
+  .profileimg-mr {
+    margin-right: 10px;
+    height: 16px;
+    margin-left: 20px;
+  }
+  .notification-bar .p-button.p-button-icon-only .pi {
+    font-size: 14px;
+  }
+
+  .partner-logo-section {
+    /* position: absolute; */
+    right: 1%;
+    top: -2px;
+  }
+  .partner-logo-section .partner-logo {
+    width: 90%;
+    height: 34px;
+  }
+
+  .profileimg-mr img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .list-unstyled li a {
+    font-size: 12px;
+    padding: 6px 6px;
+  }
+  .payment-steps .text-blue {
+    font-size: 13px;
+  }
+  .payment-line {
+    border-bottom: 1px solid var(--purple-dark) !important;
+    min-height: 1px;
+    margin: auto 2px;
+    width: 25px;
+  }
+
+  .payment-steps .steps .step .payment-count {
+    font-size: 10px !important;
+    width: 22px !important;
+    height: 22px !important;
+  }
+
+  .tab-pane {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .form-group span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px !important;
+  }
+
+  .info-section {
+    padding-left: 25px !important;
+    padding-right: 45px;
+  }
+  .info-section .usermange {
+    padding-right: 15px !important;
+  }
+  .acc-screen .form-group input {
+    height: 28px;
+    width: 100%;
+    font-size: 12px !important;
+    line-height: 16px;
+    padding: 8px 10px;
+  }
+
+  .info-section-second {
+    padding-right: 25px !important;
+    padding-left: 40px !important;
+  }
+
+  .text-blue-address {
+    font-size: 12px !important;
+  }
+
+  .register-address .form-check-label {
+    margin-left: 10px;
+    font-size: 8px;
+  }
+
+  .uploadimg {
+    max-width: 110px;
+    max-height: 110px;
+  }
+
+  .btn.btn-cancel,
+  .btn.btn-back {
+    padding: 6px 23px;
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .user-heading .second-btn-send {
+    margin-right: 0px;
+  }
+  .btn.btn-continue {
+    padding: 9px 27px;
+    font-size: 11px;
+  }
+  .adm-insta-fees .btn.btn-continue {
+    font-size: 10px;
+  }
+  .input-label {
+    font-size: 9px;
+  }
+
+  .info-section .text-area {
+    font-size: 11px;
+  }
+
+  .acc-screen .form-group input::placeholder {
+    font-size: 9px;
+  }
+
+  .p-multiselect .p-multiselect-label.p-placeholder {
+    font-size: 9px !important;
+  }
+  .payment-screen h2 {
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 7px;
+    padding: 5px 0px;
+  }
+  .payment-screen .form-check-label {
+    font-size: 12px;
+  }
+  .form-check-input {
+    /* width: 0.9em;
+    height: 0.9em; */
+
+    width: 0.15em;
+    height: 0.15em;
+  }
+  .payment-screen .form-check-input:checked[type='radio'] {
+    background-size: 8px;
+  }
+  .btn.btn-payment {
+    font-size: 12px;
+  }
+  .btn.btn-payment-selected {
+    padding: 6px 35px;
+    font-size: 12px;
+  }
+  .error-msg {
+    font-size: 11px !important;
+  }
+  .button-section {
+    padding-top: 0px !important;
+  }
+  .error-msg-small {
+    font-size: 7px !important;
+  }
+  .form-group .p-calendar .p-button {
+    height: 28px;
+  }
+
+  .Login-form,
+  .Register-form,
+  .SetPassword-form {
+    width: 459px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .login-form-display h3 {
+    font-size: 17px;
+    line-height: 10px;
+  }
+  .login-form-display h2 {
+    font-size: 21px;
+  }
+  form .btn-login {
+    margin-bottom: 15px;
+  }
+  .form-group.password-input {
+    margin-bottom: 26px;
+  }
+  .form-group.login-form-input {
+    margin-bottom: 20px;
+  }
+  .Register-form p {
+    font-size: 14px !important;
+    line-height: 17px !important;
+  }
+  .register-login-text a {
+    display: block;
+    font-size: 17px;
+    line-height: 0px;
+    margin-bottom: 10px;
+  }
+  .form-group.login-form-input input {
+    padding: 7px;
+    font-size: 12px;
+  }
+  .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item {
+    line-height: 17px !important;
+    font-size: 8px !important;
+  }
+  .p-tabview .p-tabview-nav li.p-unselectable-text .p-tabview-nav-link {
+    font-size: 13px !important;
+  }
+  .datatable-doc-demo .p-datatable .p-datatable-thead > tr > th {
+    padding-left: 14px !important;
+  }
+  .recevie-currency h3 {
+    font-size: 15px !important;
+  }
+  .currency-details {
+    margin-right: 40px !important;
+  }
+  .currency-details table th {
+    font-size: 12px !important;
+    padding: 10px 8px;
+    padding-left: 23px;
+  }
+  .currency-details table td {
+    font-size: 11px !important;
+    padding-left: 25px !important;
+  }
+  .fees-discription {
+    font-size: 10px !important;
+  }
+
+  .Fees-sending-payment h4 {
+    font-size: 13px !important;
+  }
+  .btn-next {
+    padding: 7px 20px !important;
+    font-size: 12px !important;
+  }
+  .fees-card input {
+    font-size: 12px !important;
+  }
+  .paymentsetting-readscreen .read-only {
+    width: 140px !important;
+    font-size: 11px !important;
+  }
+  .paymentsetting-readscreen .read-text {
+    font-size: 11px !important;
+  }
+  .paymentsetting-readscreen .read-only span {
+    font-size: 11px !important;
+  }
+
+  .acccount-seeting-screen h2 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .acccount-seeting-screen table th {
+    font-size: 13px;
+  }
+  .acccount-seeting-screen table td .form-check-label {
+    font-size: 10px;
+  }
+  .datatable-doc-demo .p-datatable .p-datatable-tbody > tr > td {
+    padding: 7px 15px;
+    font-size: 11px;
+    padding-left: 6px;
+  }
+  .btn.btn-continue .pi-plus {
+    font-size: 8px;
+  }
+  .datatable-doc-demo .p-datatable .p-datatable-tbody > tr > td .btn-view {
+    width: 60px;
+    padding: 5px 7px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  .pi-sort-alt:before {
+    font-size: 12px;
+  }
+  .p-datatable .p-sortable-column .p-sortable-column-icon {
+    margin-left: 2px;
+  }
+
+  .p-datatable .p-column-header-content {
+    font-size: 11px;
+    line-height: 17px;
+  }
+  .datatable-doc-demo .p-datatable .p-datatable-thead > tr > th {
+    padding: 8px 7px;
+  }
+
+  .user-heading h2 {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .user-dialog .p-dialog-content h2 {
+    font-size: 16px;
+  }
+  .user-dialog {
+    width: 70%;
+  }
+  .createpayment-screen .address-heading {
+    padding: 0px 25px;
+  }
+  .developer-header-color {
+    font-size: 15px;
+  }
+  .developer-resorce-Screen h2 {
+    font-size: 20px;
+  }
+  .developer-resorce-Screen p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .developer-resorce-Screen h1 {
+    font-size: 15px;
+  }
+  .createpayment-screen .form-group .form-check-label {
+    font-size: 11px;
+  }
+  .myfileupload-buttonbar .document-upload {
+    width: 70px;
+    font-size: 12px;
+    height: 26px;
+  }
+
+  .user-tab {
+    width: 95%;
+  }
+  .adm-insta-fees {
+    padding: 0px;
+  }
+  .myfileupload-buttonbar .p-button.document-upload {
+    padding: 0px 40px;
+  }
+
+  .document-main-div .info-section span {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+  }
+  .p-button.next-btn,
+  .btn.next-btn {
+    padding: 8px 20px;
+  }
+  .input-with-icon-realtime {
+    background-position: left 24% center;
+  }
+  .input-with-icon-mobilewallet {
+    background-position: left 11% center;
+    background-size: 10px;
+  }
+
+  .input-with-icon-bank {
+    background-position: left 10% center;
+  }
+  .input-with-icon-cashpickup {
+    background-position: left 10% center;
+  }
+  .realtime-payment-inputbox {
+    font-size: 13px;
+  }
+  .p-component.dropdown-acc.partner-dropdown input {
+    font-size: 12px;
+  }
+  .partershipdetailsinput {
+    width: 26px;
+  }
+  .select-all-field p {
+    font-size: 12px;
+  }
+  .p-inputswitch {
+    width: 38px;
+    height: 17px;
+  }
+  .switch-style .p-inputswitch .p-inputswitch-slider:before {
+    width: 13px;
+    height: 13px;
+  }
+  .form-group .pi-chevron-down:before {
+    /* top: 5px; */
+  }
+  .edit-content .edit-partner,
+  .edit-payment .edit-partner {
+    width: 50px;
+  }
+  .register-popup {
+    width: 25%;
+  }
+  .info-section .textarea-wrap .text-area::placeholder {
+    color: rgb(159, 159, 159) !important;
+    font-size: 8px !important;
+    line-height: 20px;
+  }
+}
