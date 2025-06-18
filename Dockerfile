@@ -5,11 +5,9 @@ WORKDIR /app
 COPY package*.json ./
  
 RUN npm install
- 
-RUN npm run build
- 
-RUN npm run dev
- 
+
 COPY . .
+
+RUN NODE_OPTIONS="--max-old-space-size=4096" npm run build
  
 CMD ["npm", "start"]
